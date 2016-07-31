@@ -40,10 +40,10 @@ sudo ufw status
 
 ## Sources used
 ### Linux
-- <http://askubuntu.com/questions/36785/tail-how-to-quit-tail-and-restore-terminal-window>
 - <http://askubuntu.com/questions/168280/how-do-i-grant-sudo-privileges-to-an-existing-user>
 - <http://askubuntu.com/questions/59458/error-message-when-i-run-sudo-unable-to-resolve-host-none>
 - <http://askubuntu.com/questions/27559/how-do-i-disable-remote-ssh-login-as-root-from-a-server>
+- <http://askubuntu.com/questions/36785/tail-how-to-quit-tail-and-restore-terminal-window>
 
 ### SSH
 - <https://wiki.archlinux.org/index.php/Secure_Shell>
