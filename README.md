@@ -14,15 +14,15 @@ installed packages.
 - To change the SSH port from 22 to 2200, I edited the file `etc/ssh/sshd_config`
 - I configured the Uncomplicated Firewall to only allow incoming connections for
 SSH (port 2200), HTTP (port 80), and NTP (port 123).
-  - ```shell
-  sudo ufw default deny incoming
-  sudo ufw default allow outgoing
-  sudo ufw allow 2200/tcp
-  sudo ufw allow www
-  sudo ufw allow ntp
-  sudo ufw enable
-  sudo ufw status
-  ```
+```shell
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow 2200/tcp
+sudo ufw allow www
+sudo ufw allow ntp
+sudo ufw enable
+sudo ufw status
+```
 - The server was already configured to the UTC timezone.
 - Disallowed http access of the .git folder.
 
