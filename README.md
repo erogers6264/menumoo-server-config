@@ -1,6 +1,6 @@
 # Configuring a Linux Web Server
 
-## For the reviewer:
+## Access Information:
 - IP address: 52.36.239.162
 - SSH port: 2200
 - URL: http://ec2-52-36-239-162.us-west-2.compute.amazonaws.com/
@@ -36,7 +36,7 @@ sudo ufw status
   - flask, flask-sqlalchemy, flask-wtforms, psycopg2, requests, oauth2client,
   oauth, itsdangerous, httplib2
 - PostgreSQL
-- git
+- Got to have git
 
 ## Sources used
 ### Linux
