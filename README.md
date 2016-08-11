@@ -1,9 +1,10 @@
 # Configuring a Linux Web Server
 
 ## Access Information:
-- IP address: 52.36.239.162
-- SSH port: 2200
-- URL: http://ec2-52-36-239-162.us-west-2.compute.amazonaws.com/
+- ~~IP address: 52.36.239.162~~
+- ~~SSH port: 2200~~
+- ~~URL: http://ec2-52-36-239-162.us-west-2.compute.amazonaws.com/~~
+Note: The Amazon EC2 instance containing the configured web server has been removed since completing the Full Stack Nanodegree on July 31st, 2016
 
 ## Summary of configuration changes
 - To secure this VPS, I first created a new user `grader`, granted `grader`
