@@ -12,7 +12,7 @@ sudo permissions, and disabled remote login as root on the server.
 - I made the rest of the changes as `grader` using the `sudo` command.
 - I ran `sudo apt-get update && sudo apt-get upgrade` to update the currently
 installed packages.
-- To change the SSH port from 22 to 2200, I edited the file `etc/ssh/sshd_config`
+- To change the SSH port from 22 to 2200, I edited the file `/etc/ssh/sshd_config`
 - I configured the Uncomplicated Firewall to only allow incoming connections for
 SSH (port 2200), HTTP (port 80), and NTP (port 123).
 ```shell
